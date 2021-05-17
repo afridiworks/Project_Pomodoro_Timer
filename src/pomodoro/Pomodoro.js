@@ -108,9 +108,8 @@ function Pomodoro() {
     () => {
       // ToDo: Implement what should happen when the timer is running
       if (session.timeRemaining === 0) {
-        new Audio(
-          `${process.env.PUBLIC_URL}/alarm/submarine-dive-horn.mp3`
-        ).play();
+        new Audio(`https://bigsoundbank.com/UPLOAD/mp3/1482.mp3`).play();
+
         return setSession(nextSession(focusDuration, breakDuration));
       }
       return setSession(nextTick);
