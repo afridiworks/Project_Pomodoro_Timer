@@ -5,5 +5,5 @@ This is a project was produced under the guidiance of my courses with Thinkful. 
 
 [The Application can be found here.](https://www.google.com)
 
-Acknowledgemet
+
 Starting code was provided by Thinkful courses.
